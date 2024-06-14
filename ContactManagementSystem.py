@@ -48,7 +48,7 @@ def add_contact():
     print("Contact added successfully.")
 
 def edit_contact():
-    identifier = input("Enter the phone number or email of the contact to edit: ")
+    identifier = input("Enter the phone number of the contact to edit: ")
     contact = find_contact(identifier)
     if not contact:
         print("Contact not found.")
